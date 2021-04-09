@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <StartupObject>PatiencePixelEngine.App</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Engines">
+      <HintPath>..\..\Engines\Engines\bin\Debug\Engines.dll</HintPath>
+    </Reference>
+    <Reference Include="NewEngines">
+      <HintPath>..\..\NewEngines\NewEngines\bin\Debug\net5.0-windows\NewEngines.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
